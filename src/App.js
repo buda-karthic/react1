@@ -1,22 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Animals from "../src/component/Animals";
+import Animals1 from "../src/component/Animals1";
 
 function App() {
+  // const ani = [
+  //   {
+  //     name: "Tiger",
+  //     type: "omnivores",
+  //     color: "yellow",
+  //   },
+  //   {
+  //     name: "Cow",
+  //     type: "Herbivores",
+  //     color: "White",
+  //   },
+  //   {
+  //     name: "Zebra",
+  //     type: "Herbivores",
+  //     color: "White and Black",
+  //   },
+  // ];
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <Animals />
+        <Animals1 name={"title"} />
       </header>
     </div>
   );
